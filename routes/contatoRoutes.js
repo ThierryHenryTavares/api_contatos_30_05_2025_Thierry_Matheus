@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const contatoController = require('../controllers/contatoController');
+const contatoController = require('../controller/contatoController');
 
 router.get('/', contatoController.getAllContatos);
 router.get('/:id', contatoController.getContatoById);
